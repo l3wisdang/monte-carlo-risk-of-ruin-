@@ -4,6 +4,14 @@ This project uses Monte Carlo simulation to stress-test classic betting strategi
 
 What began as a dice game turned into a study of position sizing, randomness and survival, which are the same dynamics that drive capital management and drawdown risk in real portfolios.
 
+<p align="center"><img src="images/monte_carlo_3d.png" width="520"></p>
+
+**Key results**
+
+- Over 1,000 bets and 100 sessions, 0% of flat bettors went bust versus 86% of martingale bettors
+- The optimal loss multiplier was around 1.7, found by simulation against benchmarks of a 31.235% bust rate and 68.785% profit rate
+- d'Alembert only produces steady profit at wager sizes near one millionth of capital, making it impractical: there is no reliable way to beat the odds
+
 ## 📦 Technologies
 
 - `Python`
